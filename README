@@ -1,0 +1,12 @@
+This program implements a time based process scheduler. I have implemented a blocked queue for processes that are waiting on events, a created queue when processes first enter the system, and a 
+3 level revolving priority queue.
+
+To make this project: 
+   make clean
+   make oss child
+  
+To run this project:
+   ./oss
+
+
+I have choosen a level1 threshold of 10 seconds, a level2 threshold of 20 seconds.
